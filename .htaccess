@@ -1,0 +1,4 @@
+ReWriteEngine On
+
+# Make rewrite rule to capture all and substitute with index.php, nomatter what it is it will call the index.php
+RewriteRule . index.php
